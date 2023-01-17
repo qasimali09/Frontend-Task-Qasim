@@ -1,0 +1,156 @@
+@media(max-width:1300px){
+  .features__items__wrapper .feature__box {
+    width: 33.33%;
+  }
+}
+
+@media(min-width:1024px){
+  .header .header__nav{
+    display: block !important;
+  }
+}
+
+@media(max-width:1024px){
+
+  body h1,
+  body .h1{
+    font-size: 54px;
+    line-height: 70px;
+  }
+
+  body h2,
+  body .h2{
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .header{
+    padding: 15px 0;
+  }
+
+  .header .header__nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 99;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(-300px);
+    transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+
+  .header .header__nav.active{
+    transform: translateX(0);
+  }
+
+  .header .header__nav ul{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 30px;
+  }
+
+  .header .header__nav ul > li:not(:last-child){
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .header .header__btns .menu__toggle__btn{
+    display: block;
+  }
+
+  .about__wrapper .container{
+    flex-direction: column-reverse;
+  }
+
+  .about__wrapper .container .about__image{
+    width: 100%;
+    padding: 0;
+  }
+
+  .about__image img{
+    width: 100%;
+    margin: 0;
+  }
+
+  .about__wrapper .container .cta__content{
+    width: 100%;
+  }
+
+  .about__wrapper{
+    padding: 40px 0 60px;
+  }
+
+  .features__items__wrapper .feature__box {
+    width: 50%;
+  }
+
+  .features__items__wrapper{
+    margin-top: 40px;
+  }
+
+  .about__section{
+    padding: 130px 0;
+  }
+
+  .choose__section .container{
+    flex-direction: column;
+  }
+  
+  .choose__section .choose__slider{
+    width: 100%;
+  }
+  
+  .choose__section .choose__content{
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .footer__brand_logos .brand_logos_wrapper .brand__logo{
+    width: calc(25% - 64px);
+    margin: 10px 32px;
+  }
+
+  .newsletter__section{
+    padding: 40px 30px;
+  }
+
+  .footer__menu__wrapper_top{
+    flex-direction: column;
+  }
+
+  .footer__menu__wrapper_top .footer__menu{
+    margin: 20px 0 0 0;
+  }
+
+  .footer__social__icons{
+    margin-top: 20px;
+  }
+
+  .footer__bottom{
+    margin-top: 50px;
+  }
+
+  .newsletter__section .newsletter__form{
+    margin-left: 40px;
+  }
+
+  .newsletter__section .newsletter__form button{
+    padding: 13px 40px;
+  }
+
+  .app_get__image img{
+    margin: -100px 0 -100px;
+  }
+
+  .get__app__section{
+    padding: 100px 0;
+  }
+}
